@@ -1,0 +1,163 @@
+/*Main background of all pages START*/
+ html {
+  background: url(rhsbackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Main background of all pages END*/
+.normal {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 22px;
+  color: black;
+}
+.title {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 30px;
+  color: yellow;
+}
+
+#showTheDayName {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 22px;
+  color: white;
+}
+#showTheLunch {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 50px;
+  color: white;
+  min-height: 50%;
+  background-color: #FFC107;
+}
+
+#showSchedule {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 50px;
+  color: white;
+  min-height: 50%;
+  background-color: #FFC107;
+}
+#showParentsDiv {
+  background-color: white;
+  padding: 1px;
+  min-width: 90%;
+  min-height: 60%
+}
+#showParentsNews {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 16px;
+  color: black;
+  opacity: 0.85;
+}
+
+.menuLabel {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.menuLabelWhite {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.subMenuLabel {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.subMenuLabelWhite {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 14px;
+  color: white;
+}
+#loader {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+/*Option Box START*/
+.option1 {
+  float: left;
+  background-color: #CDDC39;
+  /*background: url(blueAbstract.png);*/
+  min-width: 50%;
+  min-height: 20%;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.option2 {
+  float: right;
+  background-color: #00BCD4;
+  /*background: url(yellowAbstract.png);*/
+  min-width: 50%;
+  min-height: 20%;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.option3 {
+  float: right;
+  background-color: #455A64;
+  /*background: url(bluepoly.png);*/
+  min-width: 100%;
+  min-height: 20%;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.option4 {
+  float: right;
+  background-color: #689F38;
+  /*background: url(greenishpoly.png);*/
+  min-width: 100%;
+  min-height: 20%;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+#credits {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 8px;
+  text-align: center;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="MasterStyle.css">
+
+<script type="text/javascript"> 
+function hideProgress(){ 
+	document.getElementById('loader').style.display = 'none'; 
+	} 
+</script>
+</head>
+<body>
+
+<table border='0' width='100%'>
+  <tr>
+    <td align='left'><a href='index.html'><img src='logo.png' height='50px'></a></td>
+    <td align='right'>
+
+    </td>
+  </tr>
+</table>
+<!--Begin content-->
+<div id='showParentsDiv'>
+	<!--<span class='title'>News for Parents</span>-->
+	<br>
+	<!--<span id='showParentsNews'></span>-->
+
+	<p id="loader"><img src="loading.gif" width="30%"></p>
+	<iframe src="https://docs.google.com/document/d/1D0V2eloilLl_otkMaTofrf5UIbEC2o0G7GdZ0PpoENc/pub?embedded=true" width="100%" height="70%" frameborder="0" onload="hideProgress()"></iframe>
+
+</div>
+
+</body>
+</html>
